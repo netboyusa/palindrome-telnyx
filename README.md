@@ -2,10 +2,10 @@ Palindrome - Telnyx
 
 Program that determines the smallest base (greater than or equal to 2) in which the first 1000 positive decimal integers are palindromes.
 
-Author: Oscar Rivera 
-Date: Nov 12, 2017 
-Last Update: Nov 13, 2017 
-Last Update README.md: Nov 14, 2017
+- Author: Oscar Rivera 
+- Date: Nov 12, 2017 
+- Last Update: Nov 14, 2017 
+- Last Update README.md: Nov 14, 2017
 
 Functions inside: telnyx/src/telnyxPalindrome
 
