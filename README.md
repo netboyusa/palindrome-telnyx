@@ -30,8 +30,9 @@
 
 ## Steps to run:
 
-Run mave pom.xml file (clean and install)
-The tests will be executed automatically
-Run as Java file (PalindromeMain.java) inside telnyx/src/telnyxPalindrome
-Check the output.csv text file in src/main/output/
-EOF
+- Run mave pom.xml file (clean and install)
+- The tests will be executed automatically
+- Run as Java file (PalindromeMain.java) inside telnyx/src/telnyxPalindrome
+- Check the output.csv text file in src/main/output/
+
+# EOF
