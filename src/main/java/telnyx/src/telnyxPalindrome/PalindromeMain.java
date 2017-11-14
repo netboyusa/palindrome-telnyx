@@ -17,7 +17,7 @@ public class PalindromeMain {
         try {
         		// Adding the header into the file output.csv
             String heading = "\"decimal\", \"smallest base in which the number is a palindrome\"";
-            File file = new File("src/output.csv");
+            File file = new File("src/main/output/output.csv");
             FileWriter fw = new FileWriter(file, false);
             BufferedWriter bw = new BufferedWriter(fw);
             PrintWriter pw = new PrintWriter(bw);
@@ -40,7 +40,7 @@ public class PalindromeMain {
 
                     if (palNum.verifyIfPalindromeNumber(numToBeConverted) == true) {
                         System.out.println(y);
-                        saveRecord(x, y, "src/output.csv");
+                        saveRecord(x, y, "src/main/output/output.csv");
                         break;
                     }
                 }
